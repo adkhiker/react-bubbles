@@ -30,10 +30,21 @@ In this project you will create a login page and request a token from the server
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] Explain what a token is used for.
-- [ ] What steps can you take in your web apps to keep your data secure?
-- [ ] Describe how web servers work.
-- [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+- [x] Explain what a token is used for.
+
+    A token is used to authenticate a user login with local, ecrypted data.
+
+- [x] What steps can you take in your web apps to keep your data secure?
+
+    Use https, encrypt local data, clean up local data when you're done.
+
+- [x] Describe how web servers work.
+
+    Web servers use http to serve files in resposne to requests from clients. They could respond with web pages, or api data, or whatever else may be needed
+
+- [x] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+    
+    C - Create - POST R - Read - GET U - Update - PUT D - Delete - DELETE
 
 
 ## Project Set Up
@@ -90,7 +101,7 @@ Build a login form to authenticate your users.
 
 **HTTP/Axios Stretch Problems**
 
-- [ ] Build a form at the bottom of `ColorList.js` to add new colors to the colors data
+- [x] Build a form at the bottom of `ColorList.js` to add new colors to the colors data
 
 **Data Visualization**
 
